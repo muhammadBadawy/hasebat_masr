@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="register" content="This Is Page to  register">
+        <title>Register Now</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-2.2.3.min.js"></script>
+        <script src="form-plugin.js"></script>
+
+    </head>
+        
+        
+        <body>
+        <script src="jquery-2.2.3.min.js"></script>
+        <script src="form-plugin.js"></script>
+        
+        <form class="mform">
+            
+            <h1>Register Here</h1>
+            
+           
+            <fieldset id="fieldset1">
+                <legend>Account information</legend>
+            <input type="text" class="type" placeholder="Enter UserName" required/>   
+            <input type="email" class="type" placeholder="Enter your E-mail" required/>
+            <br>
+            <input id="line" class="type" type="password" placeholder="Enter Pasword" required/>
+            <input id="line" class="type" type="password" placeholder="Re-enter Password" required/>
+
+            </fieldset id="fieldsetfieldset">
+            <br>
+            <fieldset id="fieldset2">
+                <legend>Personal information</legend>
+            <input id="line" class="type" type="text" placeholder="First Name" required/>
+            <input id="line" class="type" type="text" placeholder="Last Name"/>
+            <br>
+            <input type="tel" class="type" placeholder="Enter Phone number"/>
+            <input type="tel" class="type" placeholder="Land-line Number"/>
+            <br>
+            <label id="surlab">Birthday</label>
+            <input id="d" class="date" type="number" placeholder="Day" min="1" max="31" required/>
+            <input id="m" class="date" type="number" placeholder="mon" min="1" max="12" required/>
+            <input id="y" class="date" type="number" placeholder="year" min="1901" max="2016" required/>
+            
+
+            
+            </fieldset>
+            <br>
+            <fieldset  id="fieldset3">
+               <legend>Survey</legend>
+            <button class="buthelp" onclick="how()">?</button>
+            <div style="float: left; margin:15px;"><input id="line" class="checkb" type="checkbox" /><label id="surlab" class="lable1">Have you heared about us ?</label></div>
+            <div style="clear: both;"></div>
+            <div style="float: left; margin:15px;"><input id="line" class="checkb" type="checkbox" /><label id="surlab" class="lable1">Did you read about Computer Science ?</label></div>
+            <div style="clear: both;"></div>
+            <p style="color:white;float:left; margin-left:25px;">_____________________________</p>
+            <br>
+            <br>
+            <div style="float: left; margin:15px;"><label id="surlab">How do you rate us ?</label></div>
+            <div style="clear: both;"></div>
+            <div style="float: left; margin:15px;"><input id="line" type="radio" name="*"/> <label id="surlab">1 star</label>
+            <input id="line" type="radio" name="*"/> <label id="surlab">2 stars</label>
+            <input id="line" type="radio" name="*"/> <label id="surlab">3 stars</label>
+            <input id="line" type="radio" name="*"/> <label id="surlab">4 stars</label>
+            <input id="line" type="radio" name="*"/> <label id="surlab">5 stars</label></div>
+            <br>
+            <br>
+            <div style="clear: both;"></div>
+            <div style="float: left; margin:15px;">
+            <label id="surlab" style="float:left;">What is Your favorite Browser ?</label>
+            <div style="clear: both;"></div>
+            <input list="Browser"  class="list" placeholder="Your Browser" required/>
+            <datalist id="Browser" >
+                <option value="Chrome">
+                <option value="FireFox">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <div style="clear: both;"></div>
+            <label id="surlab" style="float:left;">What is Your Best Hobby ?</label>
+            <div style="clear: both;"></div>
+            <select class="list">
+                <optgroup label="Gaming">
+                    <option>Strategy</option>
+                    <option selected>Shooter</option>
+                </optgroup>
+                <optgroup label="Soprts">
+                    <option>Running</option>
+                    <option disabled>Swimming</option>
+                    <option>Tennis</option>
+                    <option>Balling</option>
+                </optgroup>
+            </select>
+            </div>
+            <div style="clear: both;"></div>
+            <p style="color:white;float:left; margin-left:25px;">_____________________________</p>
+            <div style="clear: both;"></div>
+            <div style="float: left; margin:15px;">
+            <label id="surlab">Your Comment :)</label>
+            <br>
+            <br>
+            
+            <textarea " rows="6" cols="30">
+                
+            </textarea>
+            </div>
+            
+            </fieldset>
+            
+            <fieldset  id="fieldset4">
+            <legend>Your CV</legend>
+            <div style="float: left; margin:15px;">
+            <label id="surlab">Upload your CV</label>
+            
+            <input class="type" type="file" required/>
+            </div>
+            </fieldset>
+            <br>
+
+
+            
+            <br>
+            
+            <input  class="but" type="submit" />
+            <input  class="but" id="reset" type="reset" />
+            <div style="clear: both;"></div>
+            <br>
+            <p style="color:white;float:left; margin-left:35px;">_______________________________________</p>
+            <p style="color:white;float:right; margin-right:35px;">_______________________________________</p>
+            <h2 style="color:grey;">Or You Can Register Using</h2>
+            <div style="clear: both;"></div>
+            <a href="https://www.facebook.com" target="_blank"><img class="c1" src="facebook.png" alt="Facebook" title="Facebook"></a>
+            <a href="https://twitter.com/?lang=ar" target="_blank"><img class="c2" src="twitter.png" alt="Twitter" title="Twitter"></a>
+            <a href="https://google.com/" target="_blank"><img class="c3" src="google.png" alt="YT" title="YT"></a>
+        </form>
+        
+        <div id="footer">
+                <footer style="display: block;
+                width: 1000px;
+                margin: 0 auto;
+                padding : 0px;">
+                    <p >Copyright © 2016 - All Rights Reserved To 23:AM Team - <a class="link" color="#FF9900" href="#">Contact Us</a></p>
+                    <div style="float: right; margin:20px 20px 0 20px;float:right;">
+                        <a href="https://www.facebook.com" target="_blank"><img class="c1" src="facebook.png" alt="Facebook" title="Facebook"></a>
+                        <a href="https://twitter.com/?lang=ar" target="_blank"><img class="c2" src="twitter.png" alt="Twitter" title="Twitter"></a>
+                        <a href="https://google.com/" target="_blank"><img class="c3" src="google.png" alt="YT" title="YT"></a>
+                    </div>
+                   
+        </footer>
+        
+        
+
+        </body>
+    </html>

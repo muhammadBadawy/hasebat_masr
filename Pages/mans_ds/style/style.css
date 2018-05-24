@@ -1,0 +1,247 @@
+*{
+            margin:0;
+            padding:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+                
+        
+        
+        .clone {
+            display: block;
+            clear: both;
+            }
+            
+
+            
+            
+        
+        .header {
+
+            padding:0;
+            text-align: left;
+            width: 100%;
+            height: 130px;
+            background : url("6785577-cyan.jpg")
+        }
+        
+        .clearfix{
+            clear : both;
+            
+        }
+        
+        nav{/*display:block;*/ float:right; margin:0px 200px 0 0px; padding:20px 0; color:#C0BAB6; background-color:#232323;font-size:12px;/*width: 462px;*/height: 55px;}
+        nav ul{padding:0 20px;}
+        nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+        nav li.last{margin-right:0;}
+        nav li a{color:#C0BAB6; background-color:#232323;}
+        nav li a:hover{color:#FF9900; background-color:#232323;}
+        
+        #he {
+           /* width: 400px;*/
+            float: left;
+           /* display: block;*/
+            
+            
+            }        
+        
+        
+
+        #he h1{
+            
+            
+            font-size: 40px;
+            padding-top: 40px;
+            padding-left: 30px;
+            color:white;
+        }
+        
+        #he h3{
+            font-size: 20px;
+            padding:0 0 0 170px;
+            width: 100%;
+            
+            
+        }
+        
+        #auto {
+                display: block;
+                width: 1250px;
+                margin: 0 auto;
+                padding : 0px;
+                
+        }
+        
+          
+        #content {
+            
+ margin: auto;
+    width: 960px;
+    
+    
+            
+        }
+            
+        }
+        
+        #slider {
+            float: right;
+            margin-right: 50px;
+            width: 630px;
+            height: 30px;
+            border: 2px solid black;
+            
+            
+        }
+        
+        
+        #slidetalk {
+            width   :100% ;
+            margin:0 auto 20px auto;
+            
+            
+        }
+        
+        #slidetalk figure figcaption {
+            border : 2px solid #CCC;
+        }
+        
+        #slidetalk figure {
+            
+            width: 100%;
+            margin-top:30px;
+            
+        }
+        
+         #slidetalk figure img {
+            float: right;
+            
+            width : 590px;
+            height: 332.19px;
+        }
+         #slidetalk figure figcaption {
+            
+            float: left;
+            width: 360px;
+            height: 332.19px;
+            padding: 20px;
+            overflow: hidden;
+            color: #989898;
+            background-color: #DEDEDE;
+            
+        }
+        #slidetalk figure figcaption p{
+        padding:10px 10px 10px 10px;
+        }
+        .clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+
+#home {
+            display: block;
+            width: 100%;
+            margin :20px auto;
+}
+
+#dep {
+            display: block;
+            width: 100%;
+            margin :20px auto;
+            
+            
+}
+
+article {
+            display: block;
+            float: left;
+            width: 295px;
+            margin:30px 12px 0px 12px;
+            color: #979797;
+            background-color:#F8F8F8;
+            padding: 8px; 
+            
+}
+
+
+.wrap {
+            float:left;
+            padding:2px;
+            margin:0 10px 5px 0;
+            border:2px solid #CCC;
+            
+}
+
+.h3{
+            padding: 10px;
+            color: #979797;
+            
+}
+
+.more {
+           
+           text-align: right;
+            
+}
+        
+.link{        
+        color:#00CCFF;
+}
+.news{
+            display: block;
+            float: left;
+            width: 250px;
+            margin:40px 10px 100px 7px ;
+            color: #979797;
+            background-color:white;
+            
+            
+            
+}
+
+.news img {
+            border: 2px solid #CCC;
+            padding:3px;
+            height:100px;
+            width:240px;
+}
+
+
+.content2 {
+width: 100%;
+margin:0;
+}
+
+#link2 {
+            color:#FF9900;
+}
+
+/* Footer */
+
+#footer {
+            width:100%;
+            height:70px;
+            background-color:#333366;
+            float:left;
+            display: block;
+            
+}
+
+#footer img {
+            
+            width: 30px;
+            height: 30px;
+            margin:0 5px
+}
+
+#footer p {
+            text-align: left;
+            padding :25px 25px 20px 25px;
+            color:white;
+            float:left;
+}

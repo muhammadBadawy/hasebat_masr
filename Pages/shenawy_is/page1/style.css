@@ -1,0 +1,181 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+body {background-image: url('Planets_Internet_437300.jpg');}
+
+.head
+{
+    background:#676767;
+    color:#0F0;
+    padding:40px;
+    font-family:'Times New Roman';
+    font-size:100px;
+    font-weight:bolder;
+    margin:0px;
+    text-align: center;
+    transition:all 4s ease-in-out
+}
+
+.head:hover
+{
+    background:#000;
+    color:#FFF
+}
+
+.block1
+{
+
+    height: 354px;
+    width: 422px;
+
+    background-image: url('global-technology.jpg');
+    margin:15px;
+    float:left;
+}
+.block2
+{
+
+    height: 405px;
+    width: 350px;
+    left: 0; top:555px; bottom: 0;
+    background-color: #318282;
+    margin:auto;
+    float:left;
+    margin-top: 10px;
+}
+
+.header
+{
+    top: 0; left: 0; right: 0;
+    height: 80px;
+    background-color: #008080;
+    font-size: 37px;
+    color: white;
+    text-align: center;
+}
+.first {list-style: non; padding: 4px;margin: 0;}
+.first li{ display: inline-block;padding: 10px;}
+.face
+{
+
+    height: 550px; width: 1350px;
+    background-color: #98FB9A;
+    opacity: 0.8;
+    margin:auto;
+    
+}
+.face p
+{
+    font-size: 30px;
+    margin-left: 30px;
+    color: black;
+    padding-top: 20px ;
+}
+
+.face2
+{
+
+    height: 490px; width: 1350px;
+    background-color: #2F4F4F;
+    opacity: 0.8;
+    margin:auto;
+    margin-top: 10px;
+    
+}
+
+.block9 p
+{
+font-size: 25px;
+color: white; padding: 10px;
+}
+
+.footer
+{
+
+    
+    margin-top: 3px;
+    text-align: center;
+    background-color: #2F4F4F;
+    font-family:'Courier New';
+    font-size: 35px;
+    width: 100%;
+}
+a
+{
+    font-size: 30px;
+    color: black;
+    display: block;
+    margin-left: 20px;
+    text-decoration:  underline;
+    padding-top: 10px;
+}
+.block2 p
+{
+    padding: 30px;
+    text-align: center;
+    background-color: #2F4F4F;
+    margin: 0px;
+    color: black;
+    font-size: 32px;
+    
+}
+ul {
+    list-style-type: circle;
+    list-style: inside;
+}
+
+.hold
+{
+    width:1350px;
+    margin:auto;
+}
+.table
+{
+    width: 700px;
+    height: 370px;
+    float: right;
+    background: #DDD;
+    margin-right: 134px;
+    opacity: 0.9;
+    font-size: 30px;
+}
+
+.table td
+{
+    padding-left:15px;
+}
+
+
+.final
+{
+    color:white;
+    padding:10px;
+    margin: auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    background: #004080;
+    opacity: 0.9;
+    width: 1400px;
+}
+iframe {float: left;
+margin-right: 11px;
+}
+
+caption
+{
+    padding:5px;
+    border-radius: 7px ;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+    opacity: 0.85;
+    
+    
+}

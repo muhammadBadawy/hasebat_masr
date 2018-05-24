@@ -1,0 +1,360 @@
+/* Global */
+
+*{
+            margin:0;
+            padding:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+                
+        
+
+            
+body {
+            height: 1635px;
+            background: #d8f3fa;
+}
+            
+a {
+text-decoration: none;            
+}    
+
+
+
+/* End Global */
+
+/* button */
+
+
+.signin {
+    
+    width: 4px;
+    height: 3px;
+    background: #eeeeee;
+    text-align: center;
+    border:4px solid #DDD;
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: -350px;
+    left: 400px;
+    
+}
+
+#hh {
+    font-family:Forte;
+    font-size: 40px;
+    text-shadow:1px 1px 1px #000;
+    margin-bottom: 20px;
+}
+
+#id{
+     width:300px;
+    height: 30px;
+    margin:15px 75px 10px 75px;
+    border-radius: 7px;
+    display: inline-block;
+    overflow: hidden;
+    background: #DDD;
+    color:grey;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#pass {
+    width:300px;
+    height: 30px;
+    margin:25px 75px 20px 75px;
+    border-radius: 7px;
+    display: inline-block;
+    overflow: hidden;
+    background: #DDD;
+    color:grey;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#check {
+    
+}
+
+#sub {
+    width:100px;
+    margin-top:20px;
+    border-radius: 7px;
+    background: #40af49;
+    color:#DDD;
+}
+
+.exi {
+    background: #d2232a;
+    font-weight: bold;
+    border-radius:7px;
+    float:right;
+    margin:5px;
+    height: 20px;
+    width: 20px;
+    
+}
+
+.exi:hover{}
+.signin:hover{}
+
+
+/*end button*/
+
+/* Header */
+      
+        
+.header {
+
+            padding:0;
+            text-align: left;
+            width: 100%;
+            height: 130px;
+            background : url("../photos/6785577-cyan.jpg")
+}
+        
+
+        
+        nav{/*display:block;*/ float:right; margin:0px 200px 0 0px; padding:20px 0; color:#C0BAB6; background-color:#232323;font-size:12px;/*width: 462px;*/height: 55px;}
+        nav ul{padding:0 20px;}
+        nav li{display:inline; margin-right:25px; text-transform:uppercase;cursor:pointer;}
+        nav li.last{margin-right:0;cursor:pointer;}
+        nav li a{color:#C0BAB6; background-color:#232323;cursor:pointer;}
+        nav li a:hover{color:#FF9900; background-color:#232323;cursor:pointer;}
+        
+        #he {
+           /* width: 400px;*/
+            float: left;
+           /* display: block;*/
+            
+            
+            }        
+        
+        
+
+        #he h1{
+            
+            
+            font-size: 40px;
+            padding-top: 40px;
+            padding-left: 30px;
+            color:white;
+        }
+        
+        #he h3{
+            font-size: 20px;
+            padding:0 0 0 170px;
+            width: 100%;
+            
+            
+        }
+        
+        #auto {
+                display: block;
+                width: 1250px;
+                margin: 0 auto;
+                padding : 0px;
+                
+        }
+        
+/* End Header */
+        
+/* Content */
+          
+#content {
+            
+            margin: auto;
+            width: 960px;
+}
+            
+        
+        
+#slider {
+            float: right;
+            margin-right: 50px;
+            width: 630px;
+            height: 30px;
+            border: 2px solid black;
+            
+            
+}
+        
+        
+#slidetalk {
+            width   :100% ;
+            margin:0 auto 20px auto;
+            
+            
+}
+        
+        
+#slidetalk figure {
+            
+            width: 100%;
+            margin-top:30px;
+            
+}
+        
+#slidetalk figure img {
+            float: right;
+            
+            width : 590px;
+            height: 332.19px;
+}
+
+#slidetalk figure figcaption {
+            
+            float: left;
+            width: 360px;
+            height: 332.19px;
+            padding: 20px;
+            overflow: hidden;
+            color: #989898;
+            background-color: #DEDEDE;
+            border : 2px solid #CCC;
+            
+        
+}
+
+#slidetalk figure figcaption p{
+            padding:10px 10px 10px 10px;
+}
+
+
+#home {
+            display: block;
+            width: 100%;
+            margin :20px auto;
+}
+
+#dep {
+            display: block;
+            width: 100%;
+            margin :20px auto;
+            
+            
+}
+
+article {
+            display: block;
+            float: left;
+            width: 295px;
+            margin:30px 12px 0px 12px;
+            color: #979797;
+            background-color:#F8F8F8;
+            padding: 8px; 
+            
+}
+
+#art4 {
+            background: #ffdff1;
+}
+
+#art3 {
+            background: #cdc5fe;
+}
+
+#art2 {
+            background: #ffaeae;
+}
+
+#art5 {
+            background: #80ff80;
+}
+
+#art1 {
+            background: #f9fc83;
+}
+
+
+.wrap {
+            float:left;
+            padding:2px;
+            margin:0 10px 5px 0;
+            border:2px solid #CCC;
+            
+}
+
+.h3{
+            padding: 10px;
+            color: #979797;
+            
+}
+
+.more {
+           
+           text-align: right;
+            
+}
+        
+.link{        
+        color:#00CCFF;
+}
+.news{
+            display: block;
+            float: left;
+            width: 250px;
+            margin:40px 10px 100px 7px ;
+            color: #979797;
+            background-color:white;
+            
+            
+            
+}
+
+.news img {
+            border: 2px solid #CCC;
+            padding:3px;
+            height:100px;
+            width:240px;
+            margin: -3px;
+}
+
+
+.content2 {
+width: 100%;
+margin:0;
+}
+
+#link2 {
+color:#FF9900;
+}
+
+
+/* END content */
+
+
+
+/* Start Footer */
+
+#footer {
+            width:100%;
+            height:70px;
+            background-color:#333366;
+            float:left;
+            display: block;
+            
+}
+
+#footer img {
+            
+            width: 30px;
+            height: 30px;
+            margin:0 5px
+}
+
+#footer p {
+            text-align: left;
+            padding :25px 25px 20px 25px;
+            color:white;
+            float:left;
+}
+
+/*END footer*/
+
+#he #changing {
+padding: 0px 0px 0px 60px !important;
+}

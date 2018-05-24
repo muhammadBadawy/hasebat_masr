@@ -1,0 +1,643 @@
+body
+{
+    background-image:url("../Images/COVER1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box
+}
+
+@keyframes animation1
+{
+    0%   {background-color: #000;}
+    25%  {background-color: #FFFF00;}
+    50%  {background-color: #00F;}
+    75%  {background-color: #0F0;}
+    100% {background-color: #F00;}
+}
+#header1
+{
+    background:#000;
+    color:#FFF;
+    width:100%;
+    margin-top:-10px;
+    padding:3px 0px 17px 0px;
+    font-size:80px;
+    font-family:Arial,Tahoma;
+    font-weight:bolder;
+    animation-name:animation1;
+    animation-duration:10s;
+    animation-delay:4s;
+    animation-iteration-count:infinite
+}
+
+div.header2
+{
+    background:#000;
+    color:#008A49;
+    width:100%;
+    margin-bottom:-20px;
+    padding:0px;
+    text-align:right;
+    font-size:55px;
+    font-family:Andalus,Arial;
+    animation-name:animation1;
+    animation-duration:10s;
+    animation-delay:4s;
+    animation-iteration-count:infinite
+}
+
+.y1
+{
+    padding-right:10px;
+}
+
+.y2
+{
+    padding:0px;
+}
+
+span.sign1
+{
+    text-align:right;
+    font-size:30px;
+    float:right;
+    margin-right:10px;
+    margin-top:20px;
+    font-family:Comic Sans Ms,Arial;
+}
+
+img.sign2
+{
+    margin-bottom:-10px;
+    margin-right:10px
+}
+
+a.in2
+{
+    text-decoration:none;
+    color:#FFF
+}
+
+a.in2:hover
+{
+    color:#FF9500
+}
+
+a.in2:active
+{
+    color:#0FF
+}
+
+.body1
+{
+    background:#676767;
+    width:100%;
+    color:#0F0;
+    padding:5px 0px 5px 0px;
+    text-align:center;
+    font-size:20px;
+    font-family:Comic Sans Ms,Arial
+}
+
+ul
+{
+    list-style: none;
+    padding:0px;
+    margin:0px
+}
+
+ul li
+{
+    display:inline-block;
+    padding:10px
+}
+
+div.body1:hover
+{
+    background:rgba(255,0,0,0.6);
+    border:1px solid #00F
+}
+
+a.link1,a.link2,a.link3,a.link4,a.link5,a.home
+{
+    text-decoration:none;
+    color:#0F0
+}
+
+a.link1:hover,a.link2:hover,a.link3:hover,a.link4:hover,a.link5:hover,a.home:hover
+{
+    color:#0FF
+}
+
+a.link1:active,a.link2:active,a.link3:active,a.link4:active,a.link5:active,a.home:active
+{
+    color:#FFFF00
+}
+
+h1.im1
+{
+    background:#AEFF00;
+    color:#000;
+    width:550px;
+    height:27px;
+    padding:20px;
+    margin:30px auto auto;
+    font-size:25px;
+    font-family:Vladimir Script,Arial;
+    text-align:center;
+    font-weight:bolder;
+    border-radius:35px;
+    transition:all.4s ease-in-out
+}
+
+h1.im1:hover
+{
+    box-shadow:-5px -5px 5px 1px #00F,
+                5px 5px 5px 1px #F00,
+                10px 10px 10px 1px #0FF,
+                -10px -10px 10px 1px #0FF;
+    background:#000;
+    color:#FFF
+}
+
+img.im2
+{
+    
+    border-radius:50%;
+    border:1px solid #F00;
+    transition:all.4s ease-in-out
+}
+
+img.im2:hover
+{
+     box-shadow:-5px -5px 5px 1px #F00,
+                 5px 5px 5px 1px #00F,
+                 10px 10px 10px 1px #0FF,
+                 -10px -10px 10px 1px #0FF;
+    border:2px solid #FFF
+}
+
+div#body2
+{
+    background:#108991;
+    color:#FFFF00;
+    width:1203px;
+    height:50px;
+    padding:20px 0px 0px 105px;
+    margin:auto;
+    font-size:20px;
+    font-family:Arial,Tahoma;
+    border-radius:100px;
+    border:1px solid #DDD
+}
+
+div#body2:hover
+{
+    background:#1C5C54;
+    color:#00FBFF;
+    border:1px dotted #FFFF00
+}
+
+span.soft
+{
+    color:#0F0
+}
+
+div#body3
+{
+    background:#DDD;
+    width:625px;
+    height:400px;
+    margin:0px 15px 0px 20px;
+    display:inline-block; 
+    overflow:auto
+}
+
+div#body3:hover
+{
+    background:#00FF77;
+    color:#00FBFF;
+    border:1px dotted #F00
+}
+
+div h1.t1
+{
+    color:#00F;
+    text-align:center;
+    padding:0px 5px 5px;
+    font-size:35px;
+    font-family:Algerian,Arial;
+    font-weight:bolder
+}
+
+div h2.t2
+{
+    color:#000;
+    padding:0px 15px;
+    font-size:35px;
+    font-family:Agency FB,Comic Sans Ms,Tahoma;
+    font-weight:bolder;
+    text-decoration:underline;
+    font-style:italic
+}
+
+p.t3
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+div.body4
+{
+    background:#DDD;
+    width:625px;
+    height:400px;
+    margin:0px 20px 0px 38px;
+    display:inline-block;
+    overflow:auto
+}
+
+div.body4:hover
+{
+    background:#00FF77;
+    color:#00FBFF;
+    border:1px dotted #F00
+}
+
+div h1.e1
+{
+    color:#00F;
+    text-align:center;
+    padding:0px 5px 5px;
+    font-size:35px;
+    font-family:Algerian,Arial;
+    font-weight:bolder
+}
+
+div h2.e2
+{
+    color:#000;
+    padding:0px 15px;
+    font-size:35px;
+    font-family:Agency FB,Comic Sans Ms,Tahoma;
+    font-weight:bolder;
+    text-decoration:underline;
+    font-style:italic
+}
+
+p.e3
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+div#body5
+{
+    background:#108991;
+    color:#FFFF00;
+    width:1203px;
+    height:200px;
+    padding:30px 0px 20px 105px;
+    margin:30px auto;
+    font-size:20px;
+    font-family:Arial,Tahoma;
+    border-radius:100px;
+    border:2px solid #0FF;
+}
+
+div#body5:hover
+{
+    background:#570785;
+    color:#0FF;
+    border:2px double #F00
+}
+
+span.en1
+{
+    color:#0F0;
+    font-weight:bolder;
+    font-size:30px;
+    margin-left:-40px;
+    font-style:italic;
+    text-decoration:underline;
+    font-family:Arial,Tahoma
+}
+
+p.en2
+{
+    margin-left:-40px;
+    text-transform:capitalize
+}
+
+p.en3
+{
+    margin-left:-40px;
+    text-transform:capitalize
+}
+
+div#body6
+{
+    background:#DDD;
+    width:625px;
+    height:400px;
+    margin:0px 15px 0px 20px;
+    display:inline-block; 
+    overflow:auto
+}
+
+div#body6:hover
+{
+    background:#00FF77;
+    color:#00FBFF;
+    border:1px dotted #F00
+}
+
+h1.w1
+{
+    color:#00F;
+    text-align:center;
+    padding:0px 5px 5px;
+    font-size:35px;
+    font-family:Algerian,Arial;
+    font-weight:bolder
+}
+
+h2.w2
+{
+    color:#000;
+    padding:0px 15px;
+    font-size:35px;
+    font-family:Agency FB,Comic Sans Ms,Tahoma;
+    font-weight:bolder;
+    text-decoration:underline;
+    font-style:italic
+}
+
+p.w3
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 0px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+p.w4
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+p.w5
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+div.body7
+{
+    background:#DDD;
+    width:625px;
+    height:400px;
+    margin:0px 20px 0px 38px;
+    display:inline-block;
+    overflow:auto
+}
+
+div.body7:hover
+{
+    background:#00FF77;
+    color:#00FBFF;
+    border:1px dotted #F00
+}
+
+h1.p1
+{
+    color:#00F;
+    text-align:center;
+    padding:0px 5px 5px;
+    font-size:35px;
+    font-family:Algerian,Arial;
+    font-weight:bolder
+}
+
+h2.p2
+{
+    color:#000;
+    padding:0px 15px;
+    font-size:35px;
+    font-family:Agency FB,Comic Sans Ms,Tahoma;
+    font-weight:bolder;
+    text-decoration:underline;
+    font-style:italic
+}
+
+p.p3
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+p.p4
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+p.p5
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+p.p6
+{
+    color:rgba(217,108,0,1);
+    padding:0px 10px 5px;
+    font-size:15px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+div.code
+{
+    background:#570785;
+    color:#0F0;
+    width:550px;
+    height:27px;
+    padding:20px;
+    margin:30px auto auto;
+    font-size:25px;
+    font-family:Vladimir Script,Arial;
+    text-align:center;
+    font-weight:bolder;
+    border-radius:35px;
+    transition:all.4s ease-in-out;
+    border:2px solid #0FF
+}
+
+div.code:hover
+{
+    box-shadow:-5px -5px 5px 1px #00F,
+                5px 5px 5px 1px #F00,
+                10px 10px 10px 1px #0FF,
+                -10px -10px 10px 1px #0FF;
+    background:#000;
+    color:#FFF
+}
+
+img.last1
+{
+    width:600px;
+    height:400px;
+    border-radius:50%;
+    margin:30px 20px 0px;
+    border:3px solid #F00;
+    display:inline-block;
+    transition:all.4s ease-in-out
+}
+
+img.last1:hover
+{
+    border:3px solid #00F;
+     box-shadow:-5px -5px 5px 1px #F00,
+                 5px 5px 5px 1px #00F,
+                 10px 10px 10px 1px #0FF,
+                 -10px -10px 10px 1px #0FF;
+    border:2px solid #FFF
+}
+
+img.last2
+{
+    width:600px;
+    height:400px;
+    border-radius:50%;
+    margin:30px 20px 0px 73px;
+    border:3px solid #F00;
+    display:inline-block;
+    transition:all.4s ease-in-out
+}
+
+img.last2:hover
+{
+    border:3px solid #00F;
+     box-shadow:-5px -5px 5px 1px #F00,
+                 5px 5px 5px 1px #00F,
+                 10px 10px 10px 1px #0FF,
+                 -10px -10px 10px 1px #0FF;
+    border:2px solid #FFF
+}
+
+div.footer
+{
+    background:#000;
+    padding:3px 0px 17px 5px;
+    margin-top:30px
+}
+
+div.f1
+{
+    color:#FFF;
+    font-family:Comic Sans MS,Arial,Tahoma;
+    font-weight:bolder;
+    font-size:15px;
+    text-align:center;
+    padding:10px 10px 0px
+}
+
+img.f2
+{
+    width:30px;
+    height:30px;
+    margin:10px 5px 0px 0px
+}
+
+img.f3
+{
+    width:30px;
+    height:30px;
+    margin:10px 5px 0px 0px
+}
+
+img.f4
+{
+    width:30px;
+    height:30px;
+    margin:10px 5px 0px 0px
+}
+
+img.f5
+{
+    width:30px;
+    height:30px;
+    margin:10px 5px 0px 0px
+}
+
+div.f6
+{
+    color:#FFF;
+    Font-size:15px;
+    font-family:Comic Sans Ms,Arial;
+    text-align:center;
+    font-weight:bolder;
+    padding:5px 5px 0px
+}
+
+img.go1
+{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 49px;
+
+}
+
+span.go2
+{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Comic Sans Ms,Arial;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 3px;
+    right: 49px;
+}
+
+span.go2:hover
+{
+    color:#FFFF00
+}

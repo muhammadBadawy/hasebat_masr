@@ -1,0 +1,97 @@
+body{background-image: url('computer-circuit-vector.jpg');}
+
+#all{
+    position:relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.head1
+{
+    text-align: center;
+    background-color: #000380;
+   margin-top: -33px;
+   font-family: "Brush Script MT";
+   opacity: 0.4;
+   color: snow;
+   height: 75px;
+   font-size: 25px;
+   margin-left: -8px;
+    margin-right: -8px;
+   
+}
+.head1 span {color: #005782;font-family: Tahoma;}
+.head2
+{
+    text-align: center;
+    background-color: #004d71;
+    margin-top: -26px;
+    opacity: 0.4;
+    color: cyan;
+    height: 40px;
+    font-size: 21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.head3
+{
+    opacity: 0.4;
+    background-color: #006595;
+    height: 55px;
+    font-size: 30px;
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+ul {list-style: non; padding: 0;margin: 0;}
+ul li{ display: inline-block;padding: 10px;}
+
+.block1, .block2
+{
+    width: 638px;
+    height: 600px;
+    border: double;
+    border-color: #FFF;
+    margin:10px;
+    opacity: 0.5;
+    background-color: black;
+    float: left;
+}
+.image1{
+    float: left;
+}
+.image2{
+ float: right;
+ display: block;
+}
+.footer
+{
+    text-align: center;
+    background-color: inherit;
+    font-family:'Courier New';
+    font-size: 35px;
+    opacity: 0.6;
+    margin-bottom: -10px;
+    margin-top: 27px;
+}
+p {
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image1 img ,.image2 img{
+    height: 381px;
+    width:630px;
+    margin: 15px;
+    border: 3px double #f00;
+    border-radius: 25px;
+}
+
+.video{
+    border:3px solid #ddd;
+}
+

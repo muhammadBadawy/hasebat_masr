@@ -1,0 +1,46 @@
+$(document).ready(function()
+{
+
+$("img").slideDown(2000);
+$("p").hover(
+function(){
+$(this).fadeTo(2000,1);}
+,
+function(){
+$(this).fadeTo(2000,0.1);}
+);
+$("button").hover(
+function(){
+$(this).animate({top:'400px',right:'900px'},500);}
+,
+function(){
+$(this).animate({top:'1200px',left:'50px'},500);}
+);
+$("button").hover(
+function(){
+$(this).animate({top:'900px',right:'50px'},500);}
+,
+function(){
+$(this).animate({top:'600px',left:'900px'},500);}
+);
+$("button").hover(
+function(){
+$(this).animate({top:'250px',right:'1300px'},500);}
+,
+function(){
+$(this).animate({top:'600px',left:'1300px'},500);}
+);
+$("button").hover(
+function(){
+$(this).animate({top:'250px',right:'-100px'},500);}
+,
+function(){
+$(this).animate({top:'1167px',left:'565px'},500);}
+);
+    $("dl").animate({width:'1000px',height:'500px',right:'150px',top:'100px'},1000);
+    $("dl").animate({width:'700px',height:'400px',right:'300px',top:'200px'},1000);
+    $("dl").animate({width:'1px',height:'200px',right:'600px',top:'100px'},1000);
+    $("dl").animate({width:'500px',height:'1px',right:'350px',top:'200px'},1000);
+    $("dl").animate({width:'450px',height:'210px',right:'10px',top:'215px'},1000);
+
+});

@@ -1,0 +1,568 @@
+body {
+	font-family:"comic sans ms", tahoma , sans-serif;
+	text-transform:capitalize;
+	margin:0;
+	padding:0;
+	border:10px double #DDD;
+}
+p{
+	opacity:0.1;
+}
+dl{
+	position: fixed;
+	width:512px;
+	background-color:#015;
+	border:10px double #fff;
+	margin-left:818px;
+  text-align: center;
+	padding:0;
+	border-radius:40px;
+	z-index:2;
+}
+dl dt{
+	color:#fff;
+	font-size:18px;
+	font-weight:700;
+	padding:20px;
+}
+dd{
+	color:#f00;
+	padding:5px;
+}
+ul{
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size:20px;
+	font-style:italic;
+	font-weight: bold;
+	color:#015;
+}
+form{
+	background-color:#DDD;
+}
+fieldset{
+	border:3px double #f00;
+}
+legend{
+	border: 4px double #0033FF;
+  color: #008;
+	font-size:25px;
+	 margin:10px;
+	 padding:7px;
+	 border-radius:15px;
+}
+form label{
+	color:#07a724;
+	font-size:20px;
+	margin-left: 10px;
+}
+input{
+	margin:5px;
+	padding:5px;
+	color:#f00;
+	font-family:serif;
+	border:1px solid yellow;
+	font-size:20px;
+	border-radius:15px;
+}
+option{
+	margin:5px;
+	padding:5px;
+	color:#f00;
+	font-family:serif;
+	border:1px solid yellow;
+	font-size:20px;
+}
+ul:first-letter{
+	color:#fff;
+	background-color:#f00;
+	font-size:35px;
+	padding:3px 6px 3px 2px;
+	margin:1px;
+	border-radius: 10px;
+}
+table img{
+	border-radius:35px;
+}
+caption{
+	color:#f00;
+	font-weight:bolder;
+	font-style:italic;
+	font-size:50px;
+	 padding:0;
+	 margin:20px 0 30px 0;
+	 border:7px dotted #943;
+}
+th{
+	color:#239;
+}
+td{
+	color:#9A8100;
+	padding:8px;
+}
+td img {
+	padding: 8px;
+	width: 300px;
+	height: 300px;
+}
+select{
+	border-radius:30px;
+	text-align:center;
+	margin:5px 0 0 80px;
+	padding:0;
+}
+iframe{
+	margin: 10px;
+	width:400px;
+	height:300px;
+	border: 3px solid yellowgreen;
+}
+button{
+	display:block;
+	left:565px;
+	top:1167px;
+	padding:15px;
+	color:#000;
+	font-size:18px;
+	font-weight: bold;
+	text-shadow:3px 3px 3px #f00;
+	border-radius:40px;
+	border:2px dotted #00f;
+	position: absolute;
+}
+#header {
+	margin:20px auto;
+	padding:15px;
+	overflow:hidden;
+	width:1100px;
+	background-color:#c1c1c1;
+	border: 3px dotted #07A724;
+  outline: 6px solid #080;
+}
+#header #logo {
+	float: left;
+	margin:0 auto;
+	height: 126px;
+	width: 331px;
+}
+#header #logo img {
+	border: 4px double #080;
+    margin-left: 55px;
+    height: 115px;
+}
+#header ul {
+	float: right;
+	margin: 0 auto;
+	padding: 68px 0 0 0;
+	overflow: hidden;
+	width: 605px;
+}
+#header ul li {
+	list-style-type: none;
+    float: right;
+    margin-left: 70px;
+    margin-right: 8px;
+    padding: 0;
+    width: 123px;
+}
+#header ul li a,
+#header ul li a span,
+#header ul li a:hover,
+#header ul li a:hover span,
+#header ul li.selected a,
+#header ul li.selected a span {
+	background: url(../images_osos/menu.gif)
+}
+#header ul li a {
+	background-position: 30px 0;
+	color: #080;
+	display: block;
+	font-size:21px;
+	height:36px;
+	line-height:35px;
+	margin: 0 auto;;
+	padding: 0 0 0 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #e6e612;
+}
+#header ul li a span{
+	display: block;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+#header ul li a:hover {
+	background-position: -186px -37px;
+	color:#fff;
+	text-shadow: none;
+}
+#header ul li a:hover span {
+	background-position: -70px -37px;
+}
+#header ul li.selected a{
+	background-position: 10px 36px;
+	color: #f00;
+	text-shadow: none;
+}
+#header ul li.selected a span{
+	background-position: -70px -74px;
+	background-color:#00f;
+}
+#body img{
+	display: none;
+}
+#body .header {
+	background: url(../images_osos/bg-body.gif) repeat-x bottom center;
+	margin: 0 0 30px 0;
+	height:530px;
+}
+#body .header div {
+	background: url(../images_osos/smiling-man.jpg) no-repeat bottom right;
+	height: 520px;
+	margin:10px auto;
+	padding:5px;
+	width: 960px;
+	border-radius:30px;
+}
+#body .header div div {
+	background: none;
+	margin: 0 ;
+	padding: 0 10px 0 20px;
+	height: 300px;
+	width: 490px;
+}
+#body .header div h3 {
+	color: #A52727;
+	font-size: 19px;
+	line-height: 36px;
+	margin: 18px 0 0 0;
+	padding: 0;
+	text-shadow: 1px 1px 1px #fff;
+}
+#body .header div h3 span {
+	display:block;
+	font-size: 25px;
+}
+#body .header div h3 a {
+	color: #00f;
+	text-decoration: none;
+}
+#body .header div h3 a:hover {
+	color: #f00;
+}
+#body .header div p {
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 12px 0 6px 0;
+	padding: 0;
+	text-shadow: 1px 1px 1px #fff;
+}
+#body .header div p a {
+	color: #f00;
+}
+#body .header div p a:hover {
+	color: #00f;
+}
+#body .header ul {
+	overflow: hidden;
+	margin: 0;
+	padding: 49px 0 0;
+}
+#body .header ul li {
+	float: left;
+	list-style: none;
+	padding: 0 5px;
+	margin: 10px;
+}
+#body .body {
+	border:7px solid #ddd ;
+	margin: 0 auto 34px auto;
+	overflow: hidden;
+	padding: 0 2px;
+	width: 954px;
+}
+#body .body div {
+	float: left;
+}
+#body .body .section {
+	background: url(../images_osos/bg-section.gif) repeat-x top left;
+	height: 193px;
+	margin: 0;
+	padding: 53px 0 0 40px;
+	width: 186px;
+}
+#body .body .section img {
+	display: block;
+}
+#body .body .section a {
+	color: #2a4f5e;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 145px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 145px;
+}
+#body .body .section a:hover {
+	color: #080;
+	font-weight: bold;
+}
+#body .body .section img {
+	border: 0;
+}
+#body .body .article {
+	background-color:#ddd;
+	overflow: hidden;
+	padding: 19px 16px;
+	width: 470px;
+	height:auto;
+}
+#body .body .article img {
+	border: 3px solid #f00;
+	float: left;
+	margin: 0 15px 0 0;
+}
+#body .body .article h4 {
+	color: #C36511;
+	font-size: 19px;
+	font-weight: bold;
+	margin: 12px 0;
+	padding: 0;
+}
+#body .body .article h4 a {
+	color: #00f;
+	text-decoration: none;
+}
+#body .body .article h4 a mark:hover {
+	color: #00f;
+}
+#body .body .article p {
+	color: #793900;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+}
+#body .body .article p a {
+	color: #0ff;
+}
+#body .body .article p a:hover {
+	color: #00f;
+}
+#body .footer {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0 15px 0;
+	width: 960px;
+}
+#body .footer div {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#body .footer div ul {
+	margin: 0;
+	padding: 0;
+}
+#body .footer div ul li {
+	list-style: none;
+	margin: 0 0 50px;
+	padding: 0 0 15px;
+}
+#body .footer h3 {
+	color: #dff;
+	font-size: 20px;
+	line-height: 26px;
+	margin: 0 auto 12px ;
+	padding: 0;
+	text-align:center;
+	text-transform: uppercase;
+}
+#body .footer h3 a {
+	color: #dff;
+	text-decoration: none;
+}
+#body .footer h3 a:hover {
+	color: #ff4;
+}
+#body .footer .section {
+	padding: 0 10px;
+	width: 220px;
+}
+#body .footer ul li {
+	background: url(../images_osos/border-dashed.gif) repeat-x bottom left;
+}
+#body .footer ul li:last-child {
+	background: none;
+}
+#body .footer li p {
+	color: #ff5;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+#body .footer li p a {
+	color: #ff3;
+	text-decoration: underline;
+}
+#body .footer li p a:hover {
+	color: #dd7;
+}
+#body .footer li span {
+	color: #e55;
+	display: block;
+	font-size: 10px;
+	line-height: 16px;
+	margin:50px auto;
+	padding:0;
+}
+#body .footer ul.news li p {
+	background: url(../images_osos/bullets.gif) no-repeat 0 8px;
+	padding: 0 0 0 15px;
+}
+#body .footer .featured {
+	padding: 0 18px 0 24px;
+	width: 438px;
+}
+#body .footer .featured ul li {
+	overflow: hidden;
+}
+#body .footer .featured img {
+	border: 1px solid #dbddde;
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 1px;
+}
+#body .footer .featured p {
+	margin: 0;
+	padding: 0;
+}
+#body .contact,
+#body .about,
+#body .services,
+#body .blog {
+	margin: 0 auto;
+	padding: 25px 10px 50px 10px;
+	width: 940px;
+}
+#body h1 {
+	color: #2a4f5e;
+	font-size: 27px;
+	font-weight: bold;
+	height: 74px;
+	line-height: 74px;
+	margin: 0;
+	padding: 0;
+	text-indent: 10px;
+	text-transform: uppercase;
+}
+
+#body .about div {
+	padding: 50px 0 0 0;
+}
+#body .about h2 {
+	color: #2a4f5e;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body .about p {
+	color: #B53130;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 10px 0 0;
+	padding: 0;
+	text-align: justify;
+	width: 830px;
+}
+#body .about p a {
+	color: #5d5d5d;
+}
+#body .about p a:hover {
+	color: #2a4f5e;
+}
+
+#footer {
+	background: #f5f5f5 url(../images_osos/bg-footer.gif) repeat-x top left;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 26px 0 0;
+	width: 384px;
+}
+#footer div div {
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 192px;
+}
+#footer div div h3 {
+	color: #818a8c;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#footer div div ul,
+#footer div div ul li {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+#footer div div ul li {
+	font-size: 12px;
+	line-height: 22px;
+	color: #818a8c;
+	padding:5px;
+}
+#footer div a.facebook,
+#footer div a.twitter {
+	display: block;
+	float: left;
+	height: 27px;
+	margin: 10px 0 0;
+	text-indent: -99999em;
+	width: 40px;
+}
+#footer div a.facebook,
+#footer div a.twitter {
+	background: url(../images_osos/icons.gif) no-repeat;
+}
+#footer div a.facebook {
+	background-position: 0 0;
+	margin: 10px 0 0 58px;
+	_margin: 10px 0 0 28px;
+}
+h2{
+	color:#00f;
+	font-weight:bolder;
+	font-style:italic;
+	font-size:50px;
+	 padding:0;
+	 margin:0;
+ }
+#footer div a.twitter {
+	background-position: 0 -37px;
+}
+#footer div p {
+	color: #c1c1c1;
+	font-size: 12px;
+	margin: 0;
+	padding: 0 0 30px 0;
+	text-align: center;
+	text-shadow: 1px 1px 1px #fff;
+}

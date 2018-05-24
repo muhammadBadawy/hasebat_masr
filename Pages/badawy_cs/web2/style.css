@@ -1,0 +1,267 @@
+*{
+            margin:0;
+            padding:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+.clear {
+    clear:both;
+}
+
+.header {
+    width : 100%;
+    height: 175px;
+    background: #0f82b1;
+    
+}
+
+.header h1 { color:#DDD;text-align: center;padding-top:15px;width: 500px;margin:auto;}
+.header p {font-size: 55px;color:white;text-align: center;padding-top:15px;font-weight:bold;width: 600px;margin:auto;}
+
+.but1 {
+    width:140px;
+    height:60px;
+    border: 5px solid #a9dbe8;
+    border-radius:12px;
+    color:#000;
+    font-size:30px;
+    font-family: forte;
+    font-weight:bold;
+    float:right;
+    margin:50px 30px 0 0;
+    background: #d0f9ff;
+    
+}
+
+
+.signin {
+    
+    width: 4px;
+    height: 3px;
+    background: #eeeeee;
+    text-align: center;
+    border:4px solid #DDD;
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: -350px;
+    left: 500px;
+    
+    
+}
+
+#hh {
+    font-family:Forte;
+    font-size: 40px;
+    text-shadow:1px 1px 1px #000;
+    margin-bottom: 20px;
+    color:black;
+}
+
+#id{
+     width:300px;
+    height: 30px;
+    margin:15px 75px 10px 75px;
+    border-radius: 7px;
+    display: inline-block;
+    overflow: hidden;
+    background: #DDD;
+    color:grey;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#pass {
+    width:300px;
+    height: 30px;
+    margin:25px 75px 20px 75px;
+    border-radius: 7px;
+    display: inline-block;
+    overflow: hidden;
+    background: #DDD;
+    color:grey;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#check {
+    
+}
+
+#sub {
+    width:100px;
+    margin-top:20px;
+    border-radius: 7px;
+    background: #40af49;
+    color:#DDD;
+}
+
+.exi {
+    background: #d2232a;
+    font-weight: bold;
+    border-radius:7px;
+    float:right;
+    margin:5px;
+    width:20px;
+    height: 20px;
+    
+}
+
+.exi:hover{}
+.but1:hover{}
+.signin:hover{}
+
+
+.aside {
+    width: 200px;
+    height: 500px;
+    background: #a9dbe8;
+    float: left;
+    margin:10px 0 20px 0px;
+    
+}
+
+.aside dl{
+     margin:10px 0 0 15px;
+     font-weight: bold;
+}
+
+.aside dl dd{
+     font-size: 13px;
+     font-weight: bold;
+}
+
+.vid {
+     width:220px;
+     height: 700px;
+     background: #d6eaf2;
+     float: left;
+
+}
+
+
+.maw {
+    width: 800px;
+    height: 1400px;
+    background-color: #d0f9ff;
+    border-radius: 7px;
+    float:right;
+    border:2px solid #DDD;
+    
+
+    
+}
+
+.maw figure img {
+            width: 200px;
+            height: 200px;
+            margin: 20px 20px 20px 20px;
+            padding: 5px 5px 5px 5px;
+            
+            float:left;
+}
+
+.maw figure h2 {
+
+            padding: 15px;
+}
+
+.maw figure figcaption {
+
+            padding: 15px;
+            font-size:20px;
+            letter-spacing: 1.5px;
+}
+
+#fig {
+            width: auto;
+            margin: 20px 20px 20px 20px;
+            border: 2px solid white;
+}
+
+.maw table {
+            margin:auto;
+            margin-top:70px;
+            text-align: center;
+            background: #d6eaf2;
+}
+
+.maw table caption {
+            
+            margin-bottom: 20px;
+            font-size: 20px;
+            
+}
+
+.maw p {
+            padding: 15px;
+            font-size:20px;
+            letter-spacing: 1.5px;
+}
+
+.vid video{
+            margin:0px 10px 10px 10px;
+
+}
+
+.vid p{
+            margin:10px 10px 15px 20px;
+}
+
+.container {
+            
+            width:1100px;
+            height: 1500px;
+            margin-bottom: 25px;
+            margin-top:25px;
+            
+}
+            
+.adv {
+            
+            width: 200px;
+            height:380px;
+            position: fixed;
+            background: #DDD;
+            border:2px solid black;
+            border-radius: 10px;
+            margin:5px;
+            left:1125px;
+            top:180px;
+
+            
+            
+            
+}
+
+
+/* Footer start */
+
+.footer {
+            width:100%;
+            height:70px;
+            background-color:#2d8eb8;
+            float:left;
+            display: block;
+            
+}
+
+.footer img {
+            
+            width: 30px;
+            height: 30px;
+            margin:0 5px
+}
+
+.footer p {
+            text-align: left;
+            padding :25px 25px 20px 25px;
+            color:white;
+            float:left;
+}
+
+/*END footer*/
+
+/*  Footer End  */
